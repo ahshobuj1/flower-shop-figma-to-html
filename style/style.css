@@ -1,0 +1,239 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 2.6rem;
+    font-weight: ExtraBold;
+    margin-bottom: 1.5rem;
+}
+
+.desc {
+    color: #26262699;
+    font: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+/* * Header related style */
+.header {
+    background-color: #a621611a;
+    padding: 50px 240px 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.header_banner_info {
+    width: 700px;
+}
+
+.banner_title {
+    font-size: 5rem;
+    font-weight: ExtraBold;
+    margin-bottom: 2rem;
+}
+
+.banner_desc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #26262699;
+}
+
+.btn {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1.2rem 2.7rem;
+    background-color: #e55473;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.header_banner_img img {
+    width: 630px;
+    height: 800px;
+}
+
+/* * Featured flower style */
+.featured_flower {
+    padding: 180px 240px 0px 240px;
+    text-align: center;
+}
+
+.featured_info {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.flower_tree_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    gap: 24px;
+}
+
+.flower_card {
+    width: 464px;
+    height: 600px;
+}
+
+.flower_img {
+    height: 538px;
+    border-radius: 100% 100% 0 0;
+    margin-bottom: 32px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.flower_card:nth-child(1) .flower_img {
+    background-color: #a7216227;
+    background-image: url('/images/pngwing\ 6.png');
+}
+.flower_card:nth-child(2) .flower_img {
+    background-color: #0599a126;
+    background-image: url('/images/pngwing\ 5.png');
+}
+.flower_card:nth-child(3) .flower_img {
+    background-color: #477d1127;
+    background-image: url('/images/pngwing\ 7.png');
+}
+
+.flower_link {
+    color: #272727;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* * Contact related style */
+.contact {
+    padding: 130px 240px;
+    text-align: center;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2626260d;
+    padding: 85px 160px;
+}
+
+.contact_desc {
+    color: #272727cd;
+    font-size: 18px;
+    font-weight: SemiBold;
+    margin-top: 24px;
+}
+
+/* * Sale related style */
+.sale {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #e554730c;
+}
+
+.sale_details {
+    max-width: 580px;
+}
+
+/* * Instagram related page */
+.instagram_page {
+    text-align: center;
+    padding: 130px 240px;
+}
+
+.insta_info {
+    width: 590px;
+    margin: 0 auto;
+}
+
+.insta_flower_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.insta_flower_card {
+    width: 340px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.insta_flower_card:nth-child(1) {
+    background-image: url('/images/Flower\ 01.png');
+}
+.insta_flower_card:nth-child(2) {
+    background-image: url('/images/Rectangle\ 4.png');
+}
+.insta_flower_card:nth-child(3) {
+    background-image: url('/images/Rectangle\ 5.png');
+}
+.insta_flower_card:nth-child(4) {
+    background-image: url('/images/Rectangle\ 6.png');
+}
+
+/* * Latest deal related style */
+.latest_deal {
+    padding: 130px 240px;
+    text-align: center;
+}
+
+.latest_deal_container {
+    background-image: url('/images/Rectangle\ 9.png');
+    padding: 120px 280px;
+}
+
+.form {
+    display: flex;
+}
+
+#subscribe_form {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+    padding: 22px;
+}
+
+/* * Footer area style */
+.footer_area {
+    text-align: center;
+    padding: 128px 0;
+    background-color: #111010;
+}
+
+.footer_container {
+    width: 625px;
+    margin: 0 auto;
+}
+
+.footer_title {
+    font-size: 48px;
+    font-weight: ExtraBold;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.footer_span {
+    color: #e55473;
+}
+
+.footer_desc {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.copy_right {
+    font-size: 16px;
+    color: #ffffff71;
+}
