@@ -52,9 +52,12 @@
     border: none;
 }
 
-.header_banner_img img {
-    width: 630px;
+.header_banner_img {
+    width: 700px;
     height: 800px;
+    background-image: url('/images/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 /* * Featured flower style */
@@ -64,7 +67,6 @@
 }
 
 .featured_info {
-    width: 600px;
     margin: 0 auto;
 }
 
