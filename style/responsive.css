@@ -114,6 +114,31 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .title {
+        font-size: 1.3rem;
+    }
+    .desc {
+        font-size: 10px;
+    }
+    .featured_info {
+        max-width: 400px;
+    }
+    .insta_info {
+        max-width: 400px;
+    }
+
+    .insta_flower_box {
+        text-align: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .insta_flower_card {
+        flex-basis: 320px;
+        margin: 10px auto;
+    }
+}
+
 @media only screen and (max-width: 770px) {
     .header {
         padding: 20px;
